@@ -13,8 +13,5 @@ copy "%%~a" "!nobird:%strbefore%=%strafter%!")
 for /f "delims=" %%a in ('dir /a /b *.%subf2%') do (
 set nobird=%%a
 copy "%%~a" "!nobird:%strbefore%=%strafter%!")
-echo * * * * * * * * * * * * * * *
-echo *      萝莉就是正义         *
-echo * * * * * * * * * * * * * * *
 echo 任务已完成
 pause
